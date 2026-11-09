@@ -1,0 +1,8 @@
+new-makiki-shopping/
+├── bot.py                  # Main entry point loader
+├── cogs/
+│   ├── __init__.py
+│   ├── shop_sync.py        # Gumroad & GitHub Release Manifest Cog
+│   └── twitch_alerts.py    # Live Stream & Chat Alert Cog
+├── .env                    # Secure tokens & IDs
+└── requirements.txt        # Dependencies (discord.py, aiohttp, python-dotenv)
